@@ -1,0 +1,1134 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:2:1-318:12
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:2:1-318:12
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:2:1-318:12
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:2:1-318:12
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-41:12
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:2:1-33:12
+MERGED from [:baseadapter-recyclerview] /Myproject/tongpin/baseadapter-recyclerview/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/03a1a7ee8d09edcaf8ebbdbaa0bbf197/AndroidManifest.xml:2:1-11:12
+MERGED from [com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.1.2.aar/e766ced8188e49f01dcc9e6d49bf05da/AndroidManifest.xml:2:1-13:12
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.1.aar/48ae6618bcbe44ffd5ed4cd3e8bec75f/AndroidManifest.xml:2:1-12:12
+MERGED from [me.imid.swipebacklayout.lib:library:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.0.0.aar/f736b59d8cf33f81ca4b404775ab784a/AndroidManifest.xml:2:1-13:12
+MERGED from [com.androidadvance:topsnackbar:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/topsnackbar-1.0.0.aar/c23607657d38ffad06d00cac91c22bec/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/b8487dd3c7d73cf6b4eba6f52df4a917/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex:rxandroid:1.1.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/17659cdde9dfc7ea405bf95740c2b376/AndroidManifest.xml:15:1-21:12
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.0.8] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/FlycoTabLayout_Lib-2.0.8.aar/3555c2f8ab915c94dd7d460620c1f5e2/AndroidManifest.xml:2:1-16:12
+MERGED from [com.huxq17.xrefreshview:xrefreshview:3.5.5] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/xrefreshview-3.5.5.aar/4940ebccd291e748597bd83667183e7c/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.rey5137:material:1.2.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/material-1.2.4.aar/ef050b2d5d5dcff84851f414a197580b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.0.1.aar/c0c013503256eb87e7c2abce09bafb08/AndroidManifest.xml:17:1-24:12
+MERGED from [:jjdxm-ijkplayer] /Myproject/tongpin/jjdxm-ijkplayer/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.devlight.shadowlayout:library:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.0.2.aar/dc1c6083acdb565866bab6aac5db2cdf/AndroidManifest.xml:14:1-28:12
+MERGED from [com.android.support:design:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/92a657a045632c0f059b9c26b9730433/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/acbd6a28b874f18b13b48c3724a3a0c6/AndroidManifest.xml:17:1-31:12
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:2:1-129:12
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.6.aar/47b6a14661b52b513e34d2768ec16955/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/43cadde24f611b7b4c6abb21d373bb9f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.3] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.3.aar/68af1bcdf3b974ad6c21164a20339f40/AndroidManifest.xml:2:1-17:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:17:1-59:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/079be9ef0d2dd2576c0f613617fa506b/AndroidManifest.xml:2:1-7:12
+MERGED from [:vhallsdk2.9.0.2:] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/vhallsdk2.9.0.2.aar/c89fe873b8a23d65ebd47e49ef3eb06c/AndroidManifest.xml:2:1-18:12
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.6.4.aar/746545f325c6c676d4f94627e794d42f/AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.6.4.aar/eff4303d6f58e67d48c407c810e0364b/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.ctiao:ndkbitmap-armv5:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv5-0.6.4.aar/8c82cc2f573ba07ff16388a7ed291eac/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.ctiao:ndkbitmap-x86:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-x86-0.6.4.aar/5e17413b8792252e1bd11b211d24b4c8/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.0.1.aar/b17f5c7e653a8158d7ab550bc161703c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/transition-25.0.1.aar/3b60bd18bcc9fcd4ce1a3bea3b3fc5af/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/15fa22a649297b9ae3f1788806aeb80a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2020cbbfc005f0707df9d31db6eef863/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/fbd7ebfdf6666a22814e15b6c52961a1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/4038b9c0f39403667e55f0644d864923/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/c0eae6ab2b3048bc4d232564a9a04d30/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/7594c0d66b5620bae6843b09a345084e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/075f764d9fddd09905a20b0daf5a69fc/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/597b06735f94649b629945e0408b3188/AndroidManifest.xml:17:1-31:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.6.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ijkplayer-java-0.6.0.aar/96a600b994b610093cc5e4314f672139/AndroidManifest.xml:2:1-9:12
+MERGED from [com.dou361.ijkplayer-armv7a:jjdxm-ijkplayer-armv7a:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jjdxm-ijkplayer-armv7a-1.0.0.aar/2f3f44450f4b39fcc7ceb2f3831f5379/AndroidManifest.xml:2:1-12:12
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:2:1-318:12
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:2:1-318:12
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:2:1-318:12
+	package
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:2:11-31
+		INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+		INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:2:1-318:12
+		INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:2:1-318:12
+		INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:3:11-69
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:5:5-73
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:5:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:12:5-80
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:12:5-80
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:22:5-80
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:22:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:25:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:7:5-78
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:32:5-79
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:8:5-80
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:30:5-81
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:9:22-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:10:5-70
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:10:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:11:5-80
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-81
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-81
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:13:5-81
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:13:5-81
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:21:5-81
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:21:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:26:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:12:5-83
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:25:5-84
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:25:5-84
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:12:22-81
+uses-permission#android.permission.ACCESS_GPS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:13:22-66
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.BROADCAST_PACKAGE_ADDED
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:15:22-79
+uses-permission#android.permission.BROADCAST_PACKAGE_CHANGED
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:16:5-83
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:16:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_INSTALL
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:17:5-83
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:17:22-81
+uses-permission#android.permission.BROADCAST_PACKAGE_REPLACED
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:18:5-84
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:18:22-82
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:19:5-74
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:19:22-72
+uses-permission#android.permission.CAMERA
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:20:5-64
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-65
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:20:22-62
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:21:5-78
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:34:5-79
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:34:5-79
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:22:22-71
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:25:5-71
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:25:22-69
+uses-permission#android.permission.READ_LOGS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:26:22-65
+uses-permission#android.permission.RECORD_VIDEO
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:27:5-70
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-71
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:27:22-68
+uses-permission#android.permission.READ_SMS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:28:5-66
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:28:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:29:5-69
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:29:22-67
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:30:5-78
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:17:5-79
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:30:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:31:5-70
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-71
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:31:22-68
+uses-permission#android.permission.SEND_SMS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:32:5-66
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:32:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:33:5-77
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:33:22-75
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:34:5-73
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:34:22-71
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:35:5-72
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-73
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-73
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:23:5-73
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:23:5-73
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:35:22-70
+uses-permission#com.ycx.yizhaodaba.permission.JPUSH_MESSAGE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:36:5-82
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:36:22-80
+uses-permission#android.permission.VIBRATE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:37:5-65
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:24:5-66
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:37:22-63
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:38:5-88
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:33:5-89
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:33:5-89
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:38:22-86
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:39:5-74
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:39:22-72
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:40:5-74
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:5-75
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:5-75
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:20:5-75
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:40:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:41:5-80
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:41:22-78
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:42:5-83
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:42:22-81
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:43:5-68
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:43:22-66
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:44:5-87
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:44:22-85
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:45:5-67
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:45:22-65
+uses-permission#android.permission.BATTERY_STATS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:46:5-71
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:46:22-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:47:5-78
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-79
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-79
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:26:5-79
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:47:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:48:5-66
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-67
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-67
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:18:5-67
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:48:22-64
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:49:5-84
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:49:22-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:50:5-67
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:19:5-68
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:50:22-65
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:51:5-75
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:31:5-76
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:31:5-76
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:51:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:52:5-75
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-76
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-76
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:27:5-76
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:27:5-76
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:52:22-73
+uses-permission#android.permission.GET_TASKS
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:53:5-67
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:11:5-68
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:53:22-65
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:54:5-68
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-69
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-69
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:54:22-66
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:55:5-85
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-86
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-86
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:55:22-83
+uses-feature#android.hardware.camera
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:61:5-59
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-60
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-60
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:61:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:62:5-69
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:24:5-70
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:24:5-70
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:62:19-67
+application
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:64:5-316:19
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-39:19
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-39:19
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:15:5-31:19
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:15:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/03a1a7ee8d09edcaf8ebbdbaa0bbf197/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/03a1a7ee8d09edcaf8ebbdbaa0bbf197/AndroidManifest.xml:9:5-20
+MERGED from [com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.1.2.aar/e766ced8188e49f01dcc9e6d49bf05da/AndroidManifest.xml:11:5-47
+MERGED from [com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.1.2.aar/e766ced8188e49f01dcc9e6d49bf05da/AndroidManifest.xml:11:5-47
+MERGED from [me.imid.swipebacklayout.lib:library:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.0.0.aar/f736b59d8cf33f81ca4b404775ab784a/AndroidManifest.xml:11:5-20
+MERGED from [me.imid.swipebacklayout.lib:library:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.0.0.aar/f736b59d8cf33f81ca4b404775ab784a/AndroidManifest.xml:11:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/b8487dd3c7d73cf6b4eba6f52df4a917/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/b8487dd3c7d73cf6b4eba6f52df4a917/AndroidManifest.xml:9:5-20
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.0.8] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/FlycoTabLayout_Lib-2.0.8.aar/3555c2f8ab915c94dd7d460620c1f5e2/AndroidManifest.xml:11:5-14:19
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.0.8] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/FlycoTabLayout_Lib-2.0.8.aar/3555c2f8ab915c94dd7d460620c1f5e2/AndroidManifest.xml:11:5-14:19
+MERGED from [com.huxq17.xrefreshview:xrefreshview:3.5.5] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/xrefreshview-3.5.5.aar/4940ebccd291e748597bd83667183e7c/AndroidManifest.xml:11:5-12:19
+MERGED from [com.huxq17.xrefreshview:xrefreshview:3.5.5] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/xrefreshview-3.5.5.aar/4940ebccd291e748597bd83667183e7c/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:cardview-v7:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.0.1.aar/c0c013503256eb87e7c2abce09bafb08/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.0.1.aar/c0c013503256eb87e7c2abce09bafb08/AndroidManifest.xml:22:5-20
+MERGED from [com.github.devlight.shadowlayout:library:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.0.2.aar/dc1c6083acdb565866bab6aac5db2cdf/AndroidManifest.xml:23:5-26:38
+MERGED from [com.github.devlight.shadowlayout:library:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.0.2.aar/dc1c6083acdb565866bab6aac5db2cdf/AndroidManifest.xml:23:5-26:38
+MERGED from [com.android.support:design:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/92a657a045632c0f059b9c26b9730433/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/92a657a045632c0f059b9c26b9730433/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/acbd6a28b874f18b13b48c3724a3a0c6/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/acbd6a28b874f18b13b48c3724a3a0c6/AndroidManifest.xml:29:5-20
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:36:5-127:19
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:36:5-127:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.3] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.3.aar/68af1bcdf3b974ad6c21164a20339f40/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.3] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.3.aar/68af1bcdf3b974ad6c21164a20339f40/AndroidManifest.xml:11:5-15:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:28:5-57:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:28:5-57:19
+MERGED from [:vhallsdk2.9.0.2:] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/vhallsdk2.9.0.2.aar/c89fe873b8a23d65ebd47e49ef3eb06c/AndroidManifest.xml:11:5-16:19
+MERGED from [:vhallsdk2.9.0.2:] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/vhallsdk2.9.0.2.aar/c89fe873b8a23d65ebd47e49ef3eb06c/AndroidManifest.xml:11:5-16:19
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.6.4.aar/eff4303d6f58e67d48c407c810e0364b/AndroidManifest.xml:11:5-20
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.6.4.aar/eff4303d6f58e67d48c407c810e0364b/AndroidManifest.xml:11:5-20
+MERGED from [com.github.ctiao:ndkbitmap-armv5:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv5-0.6.4.aar/8c82cc2f573ba07ff16388a7ed291eac/AndroidManifest.xml:11:5-20
+MERGED from [com.github.ctiao:ndkbitmap-armv5:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv5-0.6.4.aar/8c82cc2f573ba07ff16388a7ed291eac/AndroidManifest.xml:11:5-20
+MERGED from [com.github.ctiao:ndkbitmap-x86:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-x86-0.6.4.aar/5e17413b8792252e1bd11b211d24b4c8/AndroidManifest.xml:11:5-20
+MERGED from [com.github.ctiao:ndkbitmap-x86:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-x86-0.6.4.aar/5e17413b8792252e1bd11b211d24b4c8/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:transition:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/transition-25.0.1.aar/3b60bd18bcc9fcd4ce1a3bea3b3fc5af/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/transition-25.0.1.aar/3b60bd18bcc9fcd4ce1a3bea3b3fc5af/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/15fa22a649297b9ae3f1788806aeb80a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/15fa22a649297b9ae3f1788806aeb80a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2020cbbfc005f0707df9d31db6eef863/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2020cbbfc005f0707df9d31db6eef863/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/fbd7ebfdf6666a22814e15b6c52961a1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/fbd7ebfdf6666a22814e15b6c52961a1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/4038b9c0f39403667e55f0644d864923/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/4038b9c0f39403667e55f0644d864923/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/c0eae6ab2b3048bc4d232564a9a04d30/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/c0eae6ab2b3048bc4d232564a9a04d30/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/7594c0d66b5620bae6843b09a345084e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/7594c0d66b5620bae6843b09a345084e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/075f764d9fddd09905a20b0daf5a69fc/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/075f764d9fddd09905a20b0daf5a69fc/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/597b06735f94649b629945e0408b3188/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/597b06735f94649b629945e0408b3188/AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:69:9-35
+	android:label
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:68:9-41
+	android:icon
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:67:9-40
+	android:allowBackup
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:66:9-35
+	android:theme
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:70:9-40
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:65:9-50
+activity#com.qmx163.activity.LoginActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:73:9-75:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:74:13-51
+activity#com.qmx163.activity.MainActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:76:9-80:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:80:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:79:13-44
+	android:configChanges
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:78:13-74
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:77:13-50
+activity#com.qmx163.activity.SplashAc
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:81:9-89:20
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:83:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:82:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:84:13-88:29
+action#android.intent.action.MAIN
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:85:17-68
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:85:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:87:17-76
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:87:27-74
+activity#com.qmx163.activity.Me.PwdActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:90:9-93:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:93:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:92:13-44
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:91:13-52
+activity#com.qmx163.activity.Me.CompleteInformationAc
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:94:9-97:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:97:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:96:13-44
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:95:13-62
+activity#com.qmx163.activity.Found.SearchFound
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:98:9-101:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:101:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:99:13-55
+activity#com.qmx163.activity.Me.MyDateActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:103:9-108:54
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:107:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:106:13-44
+	android:windowSoftInputMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:108:13-52
+	android:configChanges
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:105:13-74
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:104:13-55
+activity#com.qmx163.activity.Me.MyEnergyActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:110:9-112:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:111:13-57
+activity#com.qmx163.activity.Me.MyZXingActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:114:9-116:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:115:13-56
+activity#com.qmx163.activity.Me.AboutUsActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:118:9-120:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:119:13-56
+activity#com.qmx163.activity.Me.FeedbackActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:122:9-125:67
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:124:13-49
+	android:windowSoftInputMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:125:9-63
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:123:13-57
+activity#com.qmx163.activity.Me.MySettingActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:127:9-129:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:129:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:128:13-58
+activity#com.qmx163.activity.Me.CaptureActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:131:9-134:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:134:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:133:13-44
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:132:13-56
+activity#com.qmx163.activity.Me.AccompanyStudyActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:136:9-139:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:139:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:138:13-44
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:137:13-63
+activity#com.qmx163.activity.Me.CheckRelationActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:141:9-143:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:143:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:142:13-62
+activity#com.qmx163.activity.Me.SignActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:145:9-149:74
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:148:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:147:13-44
+	android:theme
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:149:13-72
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:146:13-53
+activity#com.qmx163.activity.Me.MyDataItemActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:151:9-154:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:154:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:153:13-44
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:152:13-59
+activity#com.qmx163.activity.Message.MsgListActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:158:9-161:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:161:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:160:13-44
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:159:13-61
+activity#com.qmx163.activity.FocusOn.DetailsActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:164:9-166:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:166:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:165:13-61
+activity#com.qmx163.activity.watch.broadcast.BroadcastActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:167:9-171:52
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:171:13-50
+	android:label
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:170:13-45
+	android:configChanges
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:169:13-74
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:168:13-71
+activity#com.qmx163.activity.watch.WatchActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:172:9-176:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:176:13-49
+	android:label
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:175:13-45
+	android:configChanges
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:174:13-74
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:173:13-57
+activity#com.qmx163.activity.StudyToday.StudyDetailActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:179:9-181:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:181:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:180:13-68
+activity#com.qmx163.activity.Message.MessageActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:184:9-186:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:186:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:185:13-61
+activity#com.qmx163.activity.FocusOn.FocusOnActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:189:9-191:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:191:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:190:13-61
+service#com.qmx163.service.BackService
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:194:9-198:19
+	android:enabled
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:196:13-35
+	android:exported
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:197:13-36
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:195:13-48
+activity#com.qmx163.activity.StudyToday.StudyCommentDetalActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:201:9-203:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:203:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:202:13-74
+activity#com.qmx163.activity.StudyToday.StudyCollectionActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:206:9-208:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:208:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:207:13-72
+activity#com.mob.tools.MobUIShell
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:211:9-241:20
+	android:windowSoftInputMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:215:13-67
+	android:configChanges
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:213:13-74
+	android:theme
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:214:13-72
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:212:13-52
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:216:13-223:29
+data
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:217:17-59
+	android:scheme
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:217:23-57
+action#android.intent.action.VIEW
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:219:17-68
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:219:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:221:17-77
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:221:27-75
+category#android.intent.category.DEFAULT
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:222:17-75
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:222:27-73
+intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:226:13-230:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:227:17-91
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:227:25-89
+activity#com.qmx163.wxapi.WXEntryActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:244:9-249:74
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:248:13-49
+	android:exported
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:247:13-36
+	android:configChanges
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:246:13-74
+	android:theme
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:249:13-72
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:245:13-50
+meta-data#Mob-AppKey
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:252:9-254:44
+	android:value
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:254:13-42
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:253:13-38
+meta-data#Mob-AppSecret
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:255:9-257:63
+	android:value
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:257:13-61
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:256:13-41
+activity#com.qmx163.activity.Me.UpdatePwdActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:260:9-262:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:262:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:261:13-58
+activity#com.qmx163.activity.Me.UserSettingActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:265:9-267:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:267:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:266:13-60
+activity#com.qmx163.activity.Found.BannerDetailActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:270:9-272:51
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:272:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:271:13-64
+receiver#com.qmx163.service.JpushReceive
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:274:9-285:20
+	android:enabled
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:276:13-35
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:275:13-49
+intent-filter#cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+com.qmx163
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:277:13-284:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:278:17-78
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:278:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:279:17-82
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:279:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:280:17-87
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:280:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:281:17-85
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:281:25-83
+category#com.qmx163
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:283:17-54
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:283:27-52
+activity#com.qmx163.activity.Message.JpushMsgListActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:288:9-292:20
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:291:13-49
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:290:13-43
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:289:13-66
+activity#com.qmx163.activity.GuideActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:295:9-298:20
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:297:13-49
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:296:13-51
+activity#com.qmx163.activity.FocusOn.TeacherDetailActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:301:9-307:20
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:304:19-55
+	android:launchMode
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:303:19-49
+	android:configChanges
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:302:19-80
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:301:19-73
+activity#com.qmx163.activity.StudyToday.StudyCommentDetActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:308:9-310:20
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:309:19-55
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:308:19-78
+activity#com.qmx163.activity.Me.ClipImageActivity
+ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:313:9-315:20
+	android:screenOrientation
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:314:19-55
+	android:name
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml:313:19-64
+uses-sdk
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:7:5-9:41
+MERGED from [:baseadapter-recyclerview] /Myproject/tongpin/baseadapter-recyclerview/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:baseadapter-recyclerview] /Myproject/tongpin/baseadapter-recyclerview/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/03a1a7ee8d09edcaf8ebbdbaa0bbf197/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/03a1a7ee8d09edcaf8ebbdbaa0bbf197/AndroidManifest.xml:5:5-7:41
+MERGED from [com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.1.2.aar/e766ced8188e49f01dcc9e6d49bf05da/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.1.2.aar/e766ced8188e49f01dcc9e6d49bf05da/AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.1.aar/48ae6618bcbe44ffd5ed4cd3e8bec75f/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.1.aar/48ae6618bcbe44ffd5ed4cd3e8bec75f/AndroidManifest.xml:8:5-10:41
+MERGED from [me.imid.swipebacklayout.lib:library:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.0.0.aar/f736b59d8cf33f81ca4b404775ab784a/AndroidManifest.xml:7:5-9:41
+MERGED from [me.imid.swipebacklayout.lib:library:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.0.0.aar/f736b59d8cf33f81ca4b404775ab784a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.androidadvance:topsnackbar:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/topsnackbar-1.0.0.aar/c23607657d38ffad06d00cac91c22bec/AndroidManifest.xml:7:5-9:41
+MERGED from [com.androidadvance:topsnackbar:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/topsnackbar-1.0.0.aar/c23607657d38ffad06d00cac91c22bec/AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/b8487dd3c7d73cf6b4eba6f52df4a917/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/b8487dd3c7d73cf6b4eba6f52df4a917/AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex:rxandroid:1.1.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/17659cdde9dfc7ea405bf95740c2b376/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.1.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/rxandroid-1.1.0.aar/17659cdde9dfc7ea405bf95740c2b376/AndroidManifest.xml:19:5-43
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.0.8] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/FlycoTabLayout_Lib-2.0.8.aar/3555c2f8ab915c94dd7d460620c1f5e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.0.8] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/FlycoTabLayout_Lib-2.0.8.aar/3555c2f8ab915c94dd7d460620c1f5e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huxq17.xrefreshview:xrefreshview:3.5.5] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/xrefreshview-3.5.5.aar/4940ebccd291e748597bd83667183e7c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huxq17.xrefreshview:xrefreshview:3.5.5] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/xrefreshview-3.5.5.aar/4940ebccd291e748597bd83667183e7c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.rey5137:material:1.2.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/material-1.2.4.aar/ef050b2d5d5dcff84851f414a197580b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.rey5137:material:1.2.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/material-1.2.4.aar/ef050b2d5d5dcff84851f414a197580b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.0.1.aar/c0c013503256eb87e7c2abce09bafb08/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.0.1.aar/c0c013503256eb87e7c2abce09bafb08/AndroidManifest.xml:20:5-43
+MERGED from [:jjdxm-ijkplayer] /Myproject/tongpin/jjdxm-ijkplayer/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:jjdxm-ijkplayer] /Myproject/tongpin/jjdxm-ijkplayer/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.devlight.shadowlayout:library:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.0.2.aar/dc1c6083acdb565866bab6aac5db2cdf/AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.devlight.shadowlayout:library:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/library-1.0.2.aar/dc1c6083acdb565866bab6aac5db2cdf/AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:design:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/92a657a045632c0f059b9c26b9730433/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/92a657a045632c0f059b9c26b9730433/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/acbd6a28b874f18b13b48c3724a3a0c6/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/acbd6a28b874f18b13b48c3724a3a0c6/AndroidManifest.xml:21:5-23:78
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.6.aar/47b6a14661b52b513e34d2768ec16955/AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/Android-PickerView-3.2.6.aar/47b6a14661b52b513e34d2768ec16955/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/43cadde24f611b7b4c6abb21d373bb9f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/43cadde24f611b7b4c6abb21d373bb9f/AndroidManifest.xml:20:5-43
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.3] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.3.aar/68af1bcdf3b974ad6c21164a20339f40/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.3] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.3.aar/68af1bcdf3b974ad6c21164a20339f40/AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/079be9ef0d2dd2576c0f613617fa506b/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/079be9ef0d2dd2576c0f613617fa506b/AndroidManifest.xml:5:5-43
+MERGED from [:vhallsdk2.9.0.2:] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/vhallsdk2.9.0.2.aar/c89fe873b8a23d65ebd47e49ef3eb06c/AndroidManifest.xml:7:5-9:41
+MERGED from [:vhallsdk2.9.0.2:] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/vhallsdk2.9.0.2.aar/c89fe873b8a23d65ebd47e49ef3eb06c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.6.4.aar/746545f325c6c676d4f94627e794d42f/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.6.4.aar/746545f325c6c676d4f94627e794d42f/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.6.4.aar/eff4303d6f58e67d48c407c810e0364b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.6.4.aar/eff4303d6f58e67d48c407c810e0364b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:ndkbitmap-armv5:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv5-0.6.4.aar/8c82cc2f573ba07ff16388a7ed291eac/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:ndkbitmap-armv5:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv5-0.6.4.aar/8c82cc2f573ba07ff16388a7ed291eac/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:ndkbitmap-x86:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-x86-0.6.4.aar/5e17413b8792252e1bd11b211d24b4c8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:ndkbitmap-x86:0.6.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ndkbitmap-x86-0.6.4.aar/5e17413b8792252e1bd11b211d24b4c8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.0.1.aar/b17f5c7e653a8158d7ab550bc161703c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.0.1.aar/b17f5c7e653a8158d7ab550bc161703c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/transition-25.0.1.aar/3b60bd18bcc9fcd4ce1a3bea3b3fc5af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/transition-25.0.1.aar/3b60bd18bcc9fcd4ce1a3bea3b3fc5af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/15fa22a649297b9ae3f1788806aeb80a/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/15fa22a649297b9ae3f1788806aeb80a/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2020cbbfc005f0707df9d31db6eef863/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2020cbbfc005f0707df9d31db6eef863/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/fbd7ebfdf6666a22814e15b6c52961a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/fbd7ebfdf6666a22814e15b6c52961a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/4038b9c0f39403667e55f0644d864923/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/4038b9c0f39403667e55f0644d864923/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/c0eae6ab2b3048bc4d232564a9a04d30/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/c0eae6ab2b3048bc4d232564a9a04d30/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/7594c0d66b5620bae6843b09a345084e/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/7594c0d66b5620bae6843b09a345084e/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/075f764d9fddd09905a20b0daf5a69fc/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/075f764d9fddd09905a20b0daf5a69fc/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/597b06735f94649b629945e0408b3188/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/597b06735f94649b629945e0408b3188/AndroidManifest.xml:21:5-23:58
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.6.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ijkplayer-java-0.6.0.aar/96a600b994b610093cc5e4314f672139/AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.6.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/ijkplayer-java-0.6.0.aar/96a600b994b610093cc5e4314f672139/AndroidManifest.xml:5:5-7:41
+MERGED from [com.dou361.ijkplayer-armv7a:jjdxm-ijkplayer-armv7a:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jjdxm-ijkplayer-armv7a-1.0.0.aar/2f3f44450f4b39fcc7ceb2f3831f5379/AndroidManifest.xml:8:5-10:41
+MERGED from [com.dou361.ijkplayer-armv7a:jjdxm-ijkplayer-armv7a:1.0.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jjdxm-ijkplayer-armv7a-1.0.0.aar/2f3f44450f4b39fcc7ceb2f3831f5379/AndroidManifest.xml:8:5-10:41
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/design-25.0.1.aar/92a657a045632c0f059b9c26b9730433/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+		INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+		ADDED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+		INJECTED from /Myproject/tongpin/app/src/main/AndroidManifest.xml
+activity#com.vhall.uilibs.broadcast.BroadcastActivity
+ADDED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:9-33:53
+	android:screenOrientation
+		ADDED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:13-50
+	android:label
+		ADDED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:13-45
+	android:configChanges
+		ADDED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:31:13-74
+	android:name
+		ADDED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:30:13-72
+activity#com.vhall.uilibs.watch.WatchActivity
+ADDED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:9-38:52
+	android:screenOrientation
+		ADDED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:13-49
+	android:label
+		ADDED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:13-45
+	android:configChanges
+		ADDED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:13-74
+	android:name
+		ADDED from [:uilibs] /Myproject/tongpin/uilibs/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:13-64
+activity#com.zxy.recovery.core.RecoveryActivity
+ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:16:9-23:20
+	android:screenOrientation
+		ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:21:13-49
+	android:process
+		ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:20:13-39
+	android:excludeFromRecents
+		ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:18:13-46
+	android:noHistory
+		ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:19:13-37
+	android:theme
+		ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:22:13-61
+	android:name
+		ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:17:13-66
+service#com.zxy.recovery.core.RecoveryService
+ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:25:9-30:19
+	android:process
+		ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:29:13-39
+	android:enabled
+		ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:27:13-35
+	android:exported
+		ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.zxy.android:recovery:0.1.4] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/AndroidManifest.xml:26:13-65
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/acbd6a28b874f18b13b48c3724a3a0c6/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/15fa22a649297b9ae3f1788806aeb80a/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/15fa22a649297b9ae3f1788806aeb80a/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2020cbbfc005f0707df9d31db6eef863/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/2020cbbfc005f0707df9d31db6eef863/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/fbd7ebfdf6666a22814e15b6c52961a1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/fbd7ebfdf6666a22814e15b6c52961a1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/4038b9c0f39403667e55f0644d864923/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/4038b9c0f39403667e55f0644d864923/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/c0eae6ab2b3048bc4d232564a9a04d30/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/c0eae6ab2b3048bc4d232564a9a04d30/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/7594c0d66b5620bae6843b09a345084e/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/7594c0d66b5620bae6843b09a345084e/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/075f764d9fddd09905a20b0daf5a69fc/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/075f764d9fddd09905a20b0daf5a69fc/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/597b06735f94649b629945e0408b3188/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/597b06735f94649b629945e0408b3188/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/acbd6a28b874f18b13b48c3724a3a0c6/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/acbd6a28b874f18b13b48c3724a3a0c6/AndroidManifest.xml:26:9-47
+permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:12:9-65
+permission#com.qmx163.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:12:9-65
+uses-permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:16:22-78
+uses-permission#com.qmx163.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:16:22-78
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:39:9-42:52
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:41:13-37
+	android:theme
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:40:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:45:9-56:20
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:48:13-37
+	android:configChanges
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:47:13-63
+	android:theme
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:49:13-60
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:46:13-60
+intent-filter#${JPUSH_PKGNAME}+android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:50:13-55:29
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.qmx163
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:50:13-55:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:51:17-75
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:51:25-72
+category#${JPUSH_PKGNAME}
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:54:17-61
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:54:27-58
+service#cn.jpush.android.service.DownloadService
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:58:9-61:40
+	android:enabled
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:60:13-35
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:59:13-68
+service#cn.jpush.android.service.PushService
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:65:9-76:19
+	android:process
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:69:13-40
+	android:enabled
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:67:13-35
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:66:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:70:13-75:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:71:17-75
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:71:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:72:17-73
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:72:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:73:17-78
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:73:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:74:17-76
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:74:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:80:9-89:19
+	android:enabled
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:82:13-35
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:83:13-36
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:81:13-66
+intent-filter#${JPUSH_PKGNAME}+cn.jpush.android.intent.DaemonService
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:84:13-88:29
+intent-filter#cn.jpush.android.intent.DaemonService+com.qmx163
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:84:13-88:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:85:17-80
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:85:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:92:9-112:20
+	android:process
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:96:13-40
+	android:enabled
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:94:13-35
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:95:13-37
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:93:13-65
+intent-filter#${JPUSH_PKGNAME}+cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:97:13-100:29
+	android:priority
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:97:28-51
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.qmx163
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:97:13-100:29
+	android:priority
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:97:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:98:17-94
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:98:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:101:13-104:29
+action#android.intent.action.USER_PRESENT
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:102:17-77
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:102:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:103:17-79
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:103:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:106:13-111:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:107:17-78
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:107:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:108:17-80
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:108:25-77
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:115:9-117:40
+	android:exported
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:117:13-37
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:116:13-66
+meta-data#JPUSH_CHANNEL
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:120:9-122:48
+	android:value
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:122:13-45
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:121:13-41
+meta-data#JPUSH_APPKEY
+ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:123:9-125:47
+	android:value
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:125:13-44
+	android:name
+		ADDED from [cn.jiguang:jpush:2.2.0] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/jpush-2.2.0.aar/135d43d2ebe4c6cbaad81b70cb31c84d/AndroidManifest.xml:124:13-40
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:29:9-32:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:32:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:30:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:33:9-35:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:34:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:37:9-49:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:39:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:41:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:40:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:43:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:42:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:38:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:50:9-56:68
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:52:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:54:13-82
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:53:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:56:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:55:13-59
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.4-beta2] /Users/codingkai/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.4-beta2.aar/24e22461b94a5102d7517f845085558a/AndroidManifest.xml:51:13-93

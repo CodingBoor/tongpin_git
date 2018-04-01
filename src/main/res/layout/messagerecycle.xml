@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                      style="@style/MaterialStyleMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/MaterialStyleMain"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim180"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgIc"
+                android:layout_width="@dimen/dim100"
+                android:layout_height="@dimen/dim100"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_launcher"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginRight="@dimen/dim30"/>
+            
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_message_read"
+                android:layout_width="@dimen/dim12"
+                android:layout_height="@dimen/dim12"
+                android:layout_marginTop="@dimen/dim45"
+                android:layout_marginLeft="@dimen/dim107"
+                android:background="@drawable/shape_message_read"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim30"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/bg"
+                    android:textSize="@dimen/txt30" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:text="2017/5/29 14:35:22"
+                    android:lines="1"
+                    android:textColor="@color/hintbg"
+                    android:textSize="@dimen/txt28" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim20"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textColor="@color/hintbg"
+                android:text=""
+                android:textSize="@dimen/txt28" />
+        </LinearLayout>
+         <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dim30"
+                android:src="@mipmap/right"/>
+         </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/color_ededed"/>
+        </LinearLayout>
+</LinearLayout>

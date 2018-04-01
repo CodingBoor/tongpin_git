@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+   <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:addStatesFromChildren="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:id="@+id/topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim460"
+                android:background="@mipmap/teabg">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/tea_ico"
+                        android:layout_width="@dimen/dim165"
+                        android:layout_height="@dimen/dim165"
+                        android:layout_marginTop="@dimen/dim132"
+                        app:civ_border_width="@dimen/dim3"
+                        app:civ_border_color="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/tv_techer_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/dim10"
+                        android:text=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/dim30"/>
+
+                    <TextView
+                        android:id="@+id/tea_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/dim10"
+                        android:text="暂时没授课"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/dim22"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim1"
+                android:background="@color/color_dialog_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim90"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/focuson_frag_coursell"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dim90">
+
+                        <TextView
+                            android:id="@+id/tea_suggest"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="老师介绍"
+                            android:textSize="@dimen/txt30"/>
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/tea_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:src="@color/juhuan1"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/dim2"
+                    android:layout_height="@dimen/dim40"
+                    android:layout_gravity="center"
+                    android:background="@color/color_66"/>
+
+                <LinearLayout
+                    android:id="@+id/focuson_frag_teacherll"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dim90">
+
+                        <TextView
+                            android:id="@+id/tea_process"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:drawablePadding="@dimen/dim5"
+                            android:text="授课课程"
+                            android:textSize="@dimen/txt30"/>
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/tea_proline"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+</LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:scrollbars="none"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+
+
+            <FrameLayout
+                android:id="@+id/focuson_frag_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+   </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim26"
+        android:layout_marginTop="@dimen/dim52"
+        android:padding="@dimen/dim10"
+        android:src="@mipmap/live_back_icon"/>
+
+    <ImageView
+        android:id="@+id/Isfocus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dim26"
+        android:layout_marginTop="@dimen/dim52"
+        android:padding="@dimen/dim10"
+        android:src="@mipmap/teacheckno"/>
+</RelativeLayout>

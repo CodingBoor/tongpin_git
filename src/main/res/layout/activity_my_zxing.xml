@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_my_zxing"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_2d3231"
+    android:orientation="vertical"
+    tools:context="com.qmx163.activity.Me.MyZXingActivity">
+
+    <include layout="@layout/include_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim40"
+        android:layout_marginRight="@dimen/dim40"
+        android:layout_marginTop="@dimen/dim182"
+        android:background="@drawable/shape_myenergy_bg"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_head"
+                android:layout_width="@dimen/dim140"
+                android:layout_height="@dimen/dim140"
+                android:layout_marginLeft="@dimen/dim35"
+                android:layout_marginTop="@dimen/dim35"
+                android:src="@mipmap/me_head_ycx_small"
+                />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginTop="@dimen/dim53"
+                android:layout_toRightOf="@id/iv_head"
+                android:textSize="@dimen/txt28"
+                android:text=""
+                android:textColor="@color/bg"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/iv_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim20"
+                android:layout_marginTop="@dimen/dim53"
+                android:layout_toRightOf="@+id/tv_name"
+                android:src="@mipmap/me_indentily_girl"/>
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginTop="@dimen/dim32"
+                android:textSize="@dimen/txt22"
+                android:layout_toRightOf="@+id/iv_head"
+                android:text=""
+                android:textColor="@color/hintbg"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_zxing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/dim74"
+            android:layout_marginRight="@dimen/dim74"
+            android:layout_marginBottom="@dimen/dim73"
+            android:layout_marginTop="@dimen/dim205"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_zxing"
+            android:layout_marginBottom="@dimen/dim40"
+            android:textSize="@dimen/txt22"
+            android:textColor="@color/hintbg"
+            android:text="@string/my_zxing_explain"/>
+    </RelativeLayout>
+</RelativeLayout>

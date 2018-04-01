@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler_banner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.qmx163.view.BannerView
+        android:id="@+id/faxian_list_heard_banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim400"
+        android:background="@mipmap/sample_img"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim80"
+        android:background="@color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="【高中数学】"
+        android:textColor="@color/result_view"
+        android:textSize="@dimen/txt30" />
+
+</LinearLayout>

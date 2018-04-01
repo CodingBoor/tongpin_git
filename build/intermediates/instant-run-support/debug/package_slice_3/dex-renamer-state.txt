@@ -1,0 +1,4 @@
+#Sun Apr 01 15:45:15 CST 2018
+base.0=/Myproject/tongpin/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex

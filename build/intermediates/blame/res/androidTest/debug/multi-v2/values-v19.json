@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Myproject/tongpin/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/Users/codingkai/.gradle/caches/transforms-1/files-1.1/recovery-0.1.4.aar/294656f32ce7f4ca16dd30303f2027e2/res/values-v19/values-v19.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "270"
+                    }
+                }
+            ]
+        }
+    ]
+}

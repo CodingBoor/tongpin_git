@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <com.vhall.business.widget.ContainerLayout
+        android:id="@+id/rl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/tv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/radiogroup_bg"/>
+
+    <RelativeLayout
+        android:id="@+id/Rl_up"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim90"
+        android:background="#80000000"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/image_action_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:src="@drawable/icon_round_back"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_head"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dim80"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt28"
+                />
+
+
+            <ImageView
+                android:id="@+id/iv_share"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="@dimen/dim15"
+                android:paddingRight="@dimen/dim90"
+                android:src="@mipmap/live_share"/>
+
+            <ImageView
+                android:id="@+id/iv_follow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/iv_share"
+                android:paddingLeft="@dimen/dim25"
+                android:paddingRight="@dimen/dim15"
+                android:src="@mipmap/live_follow_no"/>
+
+            <TextView
+                android:id="@+id/fragment_download_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#E60000"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_down"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/alpha">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dim18"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+            <!--android:id="@+id/btn_headtracker"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:src="@drawable/vhall_icon_headtracker_checked" />-->
+
+            <ImageView
+                android:id="@+id/btn_danmaku"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/vhall_icon_danmaku_close"/>
+
+            <!--<ImageView-->
+            <!--android:id="@+id/btn_change_audio"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:src="@drawable/audio_close" />-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/btn_change_scaletype"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:background="@drawable/fit_default" />-->
+
+            <ImageView
+                android:id="@+id/click_rtmp_orientation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_round_fullscreen"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/click_rtmp_watch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/vhall_icon_live_play"/>
+
+
+            <RadioGroup
+                android:visibility="gone"
+                android:id="@+id/radio_choose"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_btn_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/vhall_icon_resolution"
+                    android:button="@null"
+                    android:visibility="visible"/>
+
+                <RadioButton
+                    android:id="@+id/radio_btn_sd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/vhall_icon_resolution_sd"
+                    android:button="@null"
+                    android:visibility="invisible"/>
+
+                <RadioButton
+                    android:id="@+id/radio_btn_hd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/vhall_icon_resolution_hd"
+                    android:button="@null"
+                    android:visibility="invisible"/>
+
+                <RadioButton
+                    android:id="@+id/radio_btn_uhd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/vhall_icon_resolution_uhd"
+                    android:button="@null"
+                    android:visibility="invisible"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tv_popu_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dim10"
+        android:background="@mipmap/live_popu_icon"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_popu_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/dim200"
+        android:layout_marginRight="@dimen/dim70"
+        android:background="@mipmap/live_gift_icon"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_lock"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dim70"
+        android:src="@mipmap/live_lock"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/dim30"
+        />
+
+    <!--<com.vhall.uilibs.util.DanmuView-->
+        <!--android:id="@+id/sv_danmaku"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_below="@+id/progressbar"-->
+        <!--android:layout_alignParentStart="true"/>-->
+
+</RelativeLayout>

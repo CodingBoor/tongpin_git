@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_bg_up"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim47"
+        android:background="@color/toolbg"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim14"
+        android:paddingTop="@dimen/dim24">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dim36"
+            android:layout_marginRight="@dimen/dim20"
+            android:layout_weight="1"
+            android:background="@drawable/corner_orange"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dim18"
+            android:paddingRight="@dimen/dim18"
+            >
+
+            <TextView
+                android:id="@+id/search_found_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/dim17"
+                android:drawableRight="@mipmap/drop_down_open2"
+                android:paddingLeft="@dimen/dim12"
+                android:text="课程"
+                android:paddingBottom="@dimen/dim8"
+                android:paddingTop="@dimen/dim8"
+                android:textColor="@color/juhuan1"
+                android:textSize="@dimen/txt28" />
+
+            <EditText
+                android:id="@+id/search_found_keyword"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:cursorVisible="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginLeft="@dimen/dim12"
+                android:layout_weight="1"
+                android:background="@null"
+                android:imeOptions="actionSearch"
+                android:hint="请输入课程名称"
+                android:textSize="@dimen/txt24"
+                android:gravity="center_vertical"
+                android:singleLine="true"/>
+
+            <com.rey.material.widget.ImageView
+                style="@style/MaterialStyle"
+                android:id="@+id/iv_del"
+                android:visibility="gone"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dim8"
+                android:src="@mipmap/me_del"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/search_found_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dim30"
+            android:gravity="center_vertical"
+            android:text="取消"
+            android:textSize="@dimen/txt30" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/search_found_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/hintbg" />
+
+    <FrameLayout
+        android:id="@+id/search_found_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

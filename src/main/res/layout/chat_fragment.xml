@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/huise"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/text_chat_content"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_height="@dimen/dim90"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dim30"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="@dimen/dim10"
+        android:textColorHint="@color/hint"
+        android:background="@drawable/shape_sendmessage_editext"
+        android:drawableLeft="@mipmap/loginname"
+        android:paddingTop="@dimen/dim12"
+        android:hint="请输入您想说的话..."
+        android:drawablePadding="@dimen/dim10"
+        android:paddingLeft="@dimen/dim18"
+        android:textColor="@color/gray_deep"
+        android:textSize="15dp" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:layout_height="@dimen/dim80">
+        <com.rey.material.widget.TextView
+            style="@style/MaterialStyleMain"
+            android:id="@+id/ll_send_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dim22"
+            android:paddingLeft="@dimen/dim20"
+            android:paddingRight="@dimen/dim20"
+            android:paddingTop="@dimen/dim10"
+            android:paddingBottom="@dimen/dim10"
+            android:background="@drawable/text_corner_orange"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:visibility="visible"
+        android:id="@+id/rv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.qmx163.view.NoScrollListview
+        android:visibility="gone"
+        android:id="@+id/lv_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/text_chat_content"
+        android:transcriptMode="alwaysScroll"></com.qmx163.view.NoScrollListview>
+
+</LinearLayout>

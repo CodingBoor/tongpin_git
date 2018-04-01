@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_head"
+            android:layout_width="@dimen/dim46"
+            android:layout_height="@dimen/dim46"
+            android:layout_marginLeft="@dimen/dim30"
+            android:layout_marginTop="@dimen/dim36"
+            android:background="@mipmap/study_comment_head"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim16"
+            android:layout_marginTop="@dimen/dim30"
+            android:layout_toRightOf="@+id/civ_head"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/bg"
+                android:textSize="@dimen/txt20"/>
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim5"
+                android:text=""
+                android:textColor="@color/hintbg"
+                android:textSize="@dimen/txt20"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dim17"
+            android:layout_marginTop="@dimen/dim47"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/tv_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/dim10"
+                android:drawableRight="@mipmap/study_star_comment"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dim13"
+                android:text="0"
+                android:textColor="@color/hintbg"
+                android:textSize="@dimen/txt20"
+                />
+
+            <TextView
+                android:id="@+id/tv_to_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dim13"
+                android:text="回复"
+                android:textColor="@color/hintbg"
+                android:textSize="@dimen/txt20"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim92"
+        android:layout_marginRight="@dimen/dim30">
+
+        <TextView
+            android:id="@+id/tv_context_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bg"
+            android:textSize="@dimen/txt28"
+            android:lineSpacingExtra="@dimen/dim14"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rl_context"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_context"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/bg"
+                android:textSize="@dimen/txt28"
+                android:lineSpacingExtra="@dimen/dim14"
+                android:lines="3"
+                android:text=""
+                />
+
+            <TextView
+                android:id="@+id/show_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="@dimen/dim20"
+                android:paddingRight="@dimen/dim10"
+                android:paddingTop="@dimen/dim12"
+                android:textSize="@dimen/txt20"
+                android:textColor="@color/hintbg"
+                android:background="@color/white"
+                android:text="显示全部"
+                />
+
+            <!--<TextView-->
+                <!--android:id="@+id/show_more"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginTop="@dimen/dim92"-->
+                <!--android:paddingLeft="@dimen/dim20"-->
+                <!--android:paddingRight="@dimen/dim10"-->
+                <!--android:paddingTop="@dimen/dim12"-->
+                <!--android:textSize="@dimen/txt20"-->
+                <!--android:textColor="@color/hintbg"-->
+                <!--android:background="@color/white"-->
+                <!--android:text="显示全部"-->
+                <!--/>-->
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_sun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim92"
+        android:layout_marginRight="@dimen/dim30"
+        android:layout_marginTop="@dimen/dim20"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:layout_marginLeft="@dimen/dim30"
+        android:layout_marginTop="@dimen/dim24"
+        android:background="@color/hintbg"/>
+</LinearLayout>

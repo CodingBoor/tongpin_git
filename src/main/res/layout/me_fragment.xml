@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/include_title"
+        android:visibility="gone"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_ededed"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_me_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_me_bg"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim380"
+                    android:src="@mipmap/me_background"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_set"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dim20"
+                    android:layout_marginTop="@dimen/dim45"
+                    android:padding="@dimen/dim13"
+                    android:src="@mipmap/me_set"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_tozxing"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim48"
+                    android:layout_toLeftOf="@+id/iv_set"
+                    android:padding="@dimen/dim13"
+                    android:src="@mipmap/me_tozxing_icon"
+                    />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_head"
+                    android:layout_width="@dimen/dim180"
+                    android:layout_height="@dimen/dim180"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dim30"
+                    android:src="@mipmap/me_head_ycx"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim32"
+                    android:layout_marginTop="@dimen/dim168"
+                    android:layout_toRightOf="@+id/iv_head"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/yh_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/bg"
+                        android:textSize="@dimen/txt34"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim34"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:id="@+id/yh_sexs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/me_indentily_girl"/>
+
+                        <TextView
+                            android:id="@+id/yh_js"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dim22"
+                            android:text=""
+                            android:textColor="@color/bg"
+                            android:textSize="@dimen/txt26"/>
+
+                        <TextView
+                            android:id="@+id/tv_level"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dim18"
+                            android:drawableLeft="@mipmap/me_grade"
+                            android:drawablePadding="@dimen/dim12"
+                            android:gravity="center_vertical"
+                            android:text=""
+                            android:textColor="@color/color_f9fc20"/>
+
+                        <TextView
+                            android:id="@+id/tv_star_size"
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dim18"
+                            android:drawableLeft="@mipmap/study_star_on_icon"
+                            android:drawablePadding="@dimen/dim12"
+                            android:gravity="center_vertical"
+                            android:text=""
+                            android:textColor="@color/juhuan1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/iv_sign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/dim144"
+                    android:src="@mipmap/me_sign_icon"
+                    android:visibility="gone"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/ll_study_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim330"
+                    android:layout_marginLeft="@dimen/dim30"
+                    android:layout_marginRight="@dimen/dim30"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/study_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text=""
+                        android:textColor="@color/hintbg"
+                        android:textSize="@dimen/txt26"
+                        />
+
+                    <TextView
+                        android:id="@+id/read_size"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/hintbg"
+                        android:textSize="@dimen/txt26"
+                        />
+
+                    <TextView
+                        android:id="@+id/start_size"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:text=""
+                        android:textColor="@color/hintbg"
+                        android:textSize="@dimen/txt26"
+                        />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_zxing"
+                style="@style/user_item_style"
+                android:drawableLeft="@mipmap/me_zxing"
+                android:drawableRight="@mipmap/right"
+                android:text="@string/me_item_zxing"
+                android:textColor="@color/bg"/>
+            </RelativeLayout>
+
+            <TextView style="@style/user_item_line_style"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_energy"
+                style="@style/user_item_style"
+                android:drawableLeft="@mipmap/me_energy"
+                android:drawableRight="@mipmap/right"
+                android:text="@string/me_item_energy"
+                android:textColor="@color/bg"/>
+</RelativeLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/text_line1"
+                style="@style/user_item_line_style"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_item_study"
+                android:visibility="gone"
+                style="@style/user_item_style"
+                android:drawableLeft="@mipmap/me_study_icon"
+                android:drawableRight="@mipmap/right"
+                android:text="@string/me_study"
+                android:textColor="@color/bg"/>
+            </RelativeLayout>
+
+            <TextView style="@style/user_item_line_style"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_star"
+                style="@style/user_item_style"
+                android:drawableLeft="@mipmap/focuscheck"
+                android:text="@string/me_star"
+                android:textColor="@color/bg"/>
+            </RelativeLayout>
+
+            <TextView style="@style/user_item_line_style"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_collection"
+                style="@style/user_item_style"
+                android:drawableLeft="@mipmap/my_collection"
+                android:text="@string/me_collection"
+                android:textColor="@color/bg"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_study"
+                style="@style/user_item_style"
+                android:layout_marginTop="@dimen/dim30"
+                android:drawableLeft="@mipmap/me_study_icon"
+                android:text="@string/me_study"
+                android:textColor="@color/bg"
+                android:visibility="gone"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_about"
+                style="@style/user_item_style"
+                android:drawableLeft="@mipmap/me_about"
+                android:text="@string/me_item_about"
+                android:textColor="@color/bg"
+                android:visibility="gone"/>
+</RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim30"
+                android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_idea"
+                style="@style/user_item_style"
+                android:drawableLeft="@mipmap/me_idea"
+                android:drawableRight="@mipmap/right"
+                android:text="@string/me_item_idea"
+                android:textColor="@color/bg"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_change"
+                style="@style/user_item_style"
+                android:layout_marginTop="@dimen/dim30"
+                android:drawableLeft="@mipmap/me_data_change"
+                android:text="@string/me_item_change"
+                android:textColor="@color/bg"
+                android:visibility="gone"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</RelativeLayout>

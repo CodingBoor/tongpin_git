@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/dim27">
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/textview_style"
+        android:paddingBottom="@dimen/dim3"
+        android:paddingLeft="@dimen/dim19"
+        android:paddingRight="@dimen/dim19"
+        android:paddingTop="@dimen/dim3"
+        android:text="2017/5/29 14:35"
+        android:textColor="@color/hintbg"
+        android:textSize="@dimen/dim22"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim27"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgIc"
+            android:layout_width="@dimen/dim100"
+            android:layout_height="@dimen/dim100"
+            android:layout_marginLeft="@dimen/dim30"
+            android:layout_marginTop="@dimen/dim12"
+            android:background="@drawable/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+        <LinearLayout
+            android:layout_width="@dimen/dim530"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim20"
+            android:layout_toRightOf="@id/imgIc"
+            android:orientation="vertical">
+
+            <com.qmx163.util.ArrowTextView
+                android:id="@+id/arrowText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/dim48"
+                android:text=""
+                android:textColor="@color/xbg"
+                android:textSize="@dimen/dim33"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/message_bg"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dim21"
+                    android:layout_marginLeft="@dimen/dim20"
+                    android:layout_marginRight="@dimen/dim20"
+                    android:layout_marginTop="@dimen/dim18"
+                    android:text=""
+                    android:textColor="@color/bg"
+                    />
+
+
+                <LinearLayout
+                    android:id="@+id/ll_check"
+                    android:layout_width="@dimen/dim440"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim20"
+                    android:layout_marginRight="@dimen/dim20"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dim1"
+                        android:layout_marginTop="@dimen/dim9"
+                        android:background="@color/color_ededed"/>
+                    <LinearLayout
+                        android:layout_marginLeft="@dimen/dim20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/huifu"
+                            android:textSize="@dimen/txt22"
+                            android:textColor="@color/juhuan1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="回复:"
+                            android:textSize="@dimen/txt22"
+                            android:textColor="@color/juhuan1"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginLeft="@dimen/dim20"
+                        android:id="@+id/huifuzhi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/bg"
+                        android:textSize="@dimen/txt26"
+                        android:layout_marginTop="@dimen/dim20"
+                        android:text=""/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/dim20"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <com.rey.material.widget.RelativeLayout
+                            style="@style/MaterialStyle"
+                            android:id="@+id/rl_question_mingbai"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            >
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:src="@mipmap/live_question_mingbai"/>
+                        </com.rey.material.widget.RelativeLayout>
+                        <com.rey.material.widget.RelativeLayout
+                            style="@style/MaterialStyle"
+                            android:id="@+id/rl_question_soso"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            >
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:background="@mipmap/live_question_soso"/>
+                        </com.rey.material.widget.RelativeLayout>
+                        <com.rey.material.widget.RelativeLayout
+                            style="@style/MaterialStyle"
+                            android:id="@+id/rl_question_innocent"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            >
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:background="@mipmap/live_question_innocent"/>
+                        </com.rey.material.widget.RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

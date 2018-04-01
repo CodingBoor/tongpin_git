@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/color_course_gry">
+    <!--android:layout_height="90dp"-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_marginTop="@dimen/dim1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/found_course_popwin_discipline_ll"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/discipline_large" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="学科"-->
+            <!--android:textSize="@dimen/dim36"-->
+            <!--android:textColor="@color/color_course_green"-->
+            <!--android:layout_marginTop="@dimen/dim15"/>-->
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_width="0.5dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/white"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/found_course_popwin_chinese_ll"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/chinese_large" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="语文"-->
+            <!--android:textSize="@dimen/dim36"-->
+            <!--android:textColor="@color/color_course_red"-->
+            <!--android:layout_marginTop="@dimen/dim15"/>-->
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_width="0.5dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/white"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/found_course_popwin_math_ll"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/math_large" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="数学"-->
+            <!--android:textSize="@dimen/dim36"-->
+            <!--android:textColor="@color/color_course_blue"-->
+            <!--android:layout_marginTop="@dimen/dim15"/>-->
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_width="0.5dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/white"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/found_course_popwin_english_ll"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/english_large" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="英语"-->
+            <!--android:textSize="@dimen/dim36"-->
+            <!--android:textColor="@color/color_course_yellow"-->
+            <!--android:layout_marginTop="@dimen/dim15"/>-->
+    <!--</LinearLayout>-->
+
+
+
+</LinearLayout>

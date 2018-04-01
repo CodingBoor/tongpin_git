@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_update_pwd"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.qmx163.activity.Me.UpdatePwdActivity">
+
+    <include layout="@layout/include_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/color_ededed"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_oldpsw"
+        android:layout_marginTop="@dimen/dim70"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="@dimen/dim200"
+            style="@style/user_item_style"
+            android:textColor="@color/bg"
+            android:text="原始密码"/>
+
+        <EditText
+            android:id="@+id/et_oldpsw"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim70"
+            android:textSize="@dimen/txt24"
+            android:lines="1"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:inputType="textPassword"
+            android:textColorHint="@color/grey"
+            android:background="@null"
+            android:hint="请输入您的原始密码"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/color_ededed"/>
+
+    <LinearLayout
+        android:id="@+id/ll_newpsw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="@dimen/dim200"
+            style="@style/user_item_style"
+            android:textColor="@color/bg"
+            android:text="新密码"/>
+
+        <EditText
+            android:id="@+id/et_newpsw"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim70"
+            android:textSize="@dimen/txt24"
+            android:lines="1"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:inputType="textPassword"
+            android:textColorHint="@color/grey"
+            android:background="@null"
+            android:hint="请输入您的新密码"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/color_ededed"/>
+
+    <LinearLayout
+        android:id="@+id/ll_newpsw_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="@dimen/dim200"
+            style="@style/user_item_style"
+            android:textColor="@color/bg"
+            android:text="确认密码"/>
+
+        <EditText
+            android:id="@+id/et_newpsw_again"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim70"
+            android:textSize="@dimen/txt24"
+            android:lines="1"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:inputType="textPassword"
+            android:textColorHint="@color/grey"
+            android:background="@null"
+            android:hint="请输入您的新密码"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/color_ededed"/>
+
+
+
+    <com.rey.material.widget.TextView
+        style="@style/MaterialStyleNone"
+        android:id="@+id/tv_sure"
+        android:layout_marginTop="@dimen/dim140"
+        android:layout_gravity="center_horizontal"
+        android:text="确认"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt24"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim70"
+        android:layout_marginLeft="@dimen/dim30"
+        android:layout_marginRight="@dimen/dim30"
+        android:background="@drawable/shape_logout"/>
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+-injars 'D:\QumengProject\tongpin\app\libs\aliyun-oss-sdk-android-2.3.0.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\app\libs\MobCommons-2017.0823.1556.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\app\libs\MobTools-2017.0823.1556.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\app\libs\netty4.1.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\app\libs\ShareSDK-Core-3.0.2.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\app\libs\ShareSDK-QQ-3.0.2.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\app\libs\ShareSDK-SinaWeibo-3.0.2.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\app\libs\ShareSDK-Wechat-3.0.2.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\app\libs\ShareSDK-Wechat-Core-3.0.2.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\app\libs\ShareSDK-Wechat-Moments-3.0.2.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\cn.trinea.android.view.autoscrollviewpager\android-auto-scroll-view-pager\1.1.2\8ad9237a8b0965696ea32ca9c1de173e082eaad4\android-auto-scroll-view-pager-1.1.2.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\recovery-0.1.4.aar\9644cc2e7c39e3b835e25bf27e68c5ba\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3b49aa1c8c47ff0e8754418e0021932f\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\library-1.1.2.aar\6c8d5a078f87d1214f88f4818559926d\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\glide-transformations-2.0.1.aar\8efe31232976eb4099c9405c11a9050a\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\io.socket\socket.io-client\0.8.3\b30500232ff0668a47c9f91f02e6935457a52fb5\socket.io-client-0.8.3.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\library-1.0.0.aar\2d9cb2ff5523c151a0a3d21666150efc\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\topsnackbar-1.0.0.aar\c70dfcb4842e7fcc27cef426c73cfda7\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\aa04396f293dd69fa606365546161640\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.2\a60c039ba54c73d1133b72178e1b04133c73d13d\adapter-rxjava-2.0.2.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.2.0\41e67dba73c3347e4503761642c39d0e06ca1f2\retrofit-2.2.0.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.1\381fc1096ba65040d8e80ea43b2e1d9bad02345e\logging-interceptor-3.4.1.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\io.socket\engine.io-client\0.8.3\854b49396e1e9f9bb0ab025062ddb49c4ed65ca1\engine.io-client-0.8.3.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\3ceaa4900f4022a80cdf64965c905f24\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.1\b494968f6050d494de55dc3ce005e59c7eb40012\rxjava-1.1.1.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\FlycoTabLayout_Lib-2.0.8.aar\cc32ddbc4b895796df74863ed8161540\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\xrefreshview-3.5.5.aar\ab7000cf236955d0747db619d7680d4e\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\material-1.2.4.aar\0673d685a3c3f003b036c13073eba4ab\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.0.1.aar\d0b52cee6d9329e417327c449e18c31d\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\library-1.0.2.aar\e04a6dcba6bbfd7d7112771ea110e67d\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\design-25.0.1.aar\34faf73e73770139f67a33d820cca9a9\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\d0c07333e96216b7f3cde805c32a310d\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.facebook.rebound\rebound\0.3.8\c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e\rebound-0.3.8.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\jpush-2.2.0.aar\e9a6d5659347193a0a0f1cbad6ff3547\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\jpush-2.2.0.aar\e9a6d5659347193a0a0f1cbad6ff3547\jars\libs\jpush-android-2.2.0.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.6.aar\89c20b1c4b26bce1aa4d2174aaa9b7dd\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\5aec12e28fd67802d4d986dd3b6ff2b0\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.3.aar\97f030bfe6dde1bd29fa7c85b86722be\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.4-beta2.aar\6eeb5baa02cc42e8a42975ee89228578\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\ea2b71c7a0de39a82a8eb0cefcc7d523\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\vhallsdk2.9.0.2.aar\40d0dae419039835caa21b01f9134117\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\vhallsdk2.9.0.2.aar\40d0dae419039835caa21b01f9134117\jars\libs\GLPreview.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\vhallsdk2.9.0.2.aar\40d0dae419039835caa21b01f9134117\jars\libs\vhallsdk3.0.1.4.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\DanmakuFlameMaster-0.6.4.aar\bd5a56ef76ccb6c397d9ecd60acac57b\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\ndkbitmap-armv7a-0.6.4.aar\e0acc5ca8e4c4fbe7d743375c1f9adc3\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\ndkbitmap-armv5-0.6.4.aar\2a42ca39416b2890383e580ef77f5cda\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\ndkbitmap-x86-0.6.4.aar\4220fe44fb150caab93b501b700976d3\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.0.1.aar\d0190ff610445cecce6cf7b3ee7cf739\jars\classes.jar'(**.class)
+-injars 'D:\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\transition-25.0.1.aar\4b42ab1dd3e95563784586960fc4380e\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\36cd57646c110144421f8e2b8a53b9ce\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\73543eb37187ddfa2d34781b7f957621\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\0d4060fd6890b8784a9aa5c697d34185\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\dd03ac40c7494f47a016a8b690494a5f\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\06e0119649e41a8f454c4bdbf20902d1\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\e1d69296090ae60593f529c5104e7339\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\8890d4d1b539b48b87c69b8c02c9ca74\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\060b0f30dda5b57f2659211b647398e6\jars\classes.jar'(**.class)
+-injars 'D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\ijkplayer-java-0.6.0.aar\74b3e08210c3feadeb45bd412b87e739\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\transforms-1\files-1.1\jjdxm-ijkplayer-armv7a-1.0.0.aar\d37f60225de150df3c9c2b26afff13f9\jars\classes.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.11.2\e3eeb8a0b4ce1db246059a41e353cd7413dad226\jsoup-1.11.2.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.4-beta2\449777cd466ac0a16f7e8d0dc508e70e2cdd13a9\leakcanary-analyzer-1.4-beta2.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.4-beta2\6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92\leakcanary-watcher-1.4-beta2.jar'(**.class)
+-injars 'C:\Users\codin\.gradle\caches\modules-2\files-2.1\com.squareup.haha\haha\2.0.2\fd65b84d12d6adc77ec0e4fcaca623fc391d8679\haha-2.0.2.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\uilibs\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\baseadapter-recyclerview\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\jjdxm-ijkplayer\build\intermediates\intermediate-jars\debug\classes.jar'(**.class)
+-injars 'D:\QumengProject\tongpin\app\build\intermediates\classes\debug'(**.class)
+-outjars 'D:\QumengProject\tongpin\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\Android\Sdk\build-tools\26.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'D:\QumengProject\tongpin\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+# Referenced at D:\QumengProject\tongpin\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:79
+-keep class com.qmx163.application.MyApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

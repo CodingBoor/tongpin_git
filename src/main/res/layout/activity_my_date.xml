@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qmx163.activity.Me.MyDateActivity">
+
+    <include layout="@layout/include_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_ededed"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim1"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <RelativeLayout
+                    android:id="@+id/rl_head"
+                    style="@style/MaterialStyleMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/user_item_style"
+                        android:layout_centerVertical="true"
+                        android:background="@color/transparent"
+                        android:clickable="false"
+                        android:drawableLeft="@mipmap/me__head_icon"
+                        android:text="@string/my_data_head" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/civ_head"
+                        android:layout_width="@dimen/dim100"
+                        android:layout_height="@dimen/dim100"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/dim21"
+                        android:layout_marginRight="@dimen/dim90"
+                        android:layout_marginTop="@dimen/dim21"
+                        android:background="@mipmap/me_head_ycx_check" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView style="@style/user_item_line_style" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <RelativeLayout
+                    android:id="@+id/rl_name"
+                    style="@style/MaterialStyleMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_name_left"
+                        style="@style/user_item_style"
+                        android:background="@color/transparent"
+                        android:clickable="false"
+                        android:drawableLeft="@mipmap/me_name_icon"
+                        android:drawableRight="@mipmap/right"
+                        android:text="@string/my_data_name" />
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        style="@style/user_date_item"
+                        android:text="" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView style="@style/user_item_line_style" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <RelativeLayout
+                    android:id="@+id/rl_sex"
+                    style="@style/MaterialStyleMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_sex_left"
+                        style="@style/user_item_style"
+                        android:background="@color/transparent"
+                        android:clickable="false"
+                        android:drawableLeft="@mipmap/me_sex_icon"
+                        android:drawableRight="@mipmap/right"
+                        android:text="@string/my_data_sex" />
+
+                    <TextView
+                        android:id="@+id/tv_sex"
+                        style="@style/user_date_item"
+                        android:text="" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView style="@style/user_item_line_style" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <RelativeLayout
+                    android:id="@+id/rl_birthday"
+                    style="@style/MaterialStyleMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_birthday_left"
+                        style="@style/user_item_style"
+                        android:background="@color/transparent"
+                        android:clickable="false"
+                        android:drawableLeft="@mipmap/me_birthday_icon"
+                        android:drawableRight="@mipmap/right"
+                        android:text="@string/my_data_birthday" />
+
+                    <TextView
+                        android:id="@+id/tv_birthday"
+                        style="@style/user_date_item"
+                        android:text="" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView style="@style/user_item_line_style" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <RelativeLayout
+                    android:id="@+id/rl_phone"
+                    style="@style/MaterialStyleMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_phone_left"
+                        style="@style/user_item_style"
+                        android:background="@color/transparent"
+                        android:clickable="false"
+                        android:drawableLeft="@mipmap/me_phone_icon"
+                        android:text="@string/my_data_phone" />
+
+                    <TextView
+                        android:id="@+id/tv_phone"
+                        style="@style/user_date_item"
+                        android:text="" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

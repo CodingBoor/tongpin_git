@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_check"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim48"
+                android:layout_marginLeft="@dimen/dim16"
+                android:layout_marginRight="@dimen/dim16"
+                android:layout_marginTop="@dimen/dim30"
+                android:background="@drawable/live_right_popu_check"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dim10"
+                android:paddingRight="@dimen/dim10">
+
+    <TextView
+        android:id="@+id/tv_greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim16"
+        android:text=""
+        android:lines="1"
+        android:textColor="@color/juhuan1"
+        android:textSize="@dimen/txt22"/>
+
+    <TextView
+        android:id="@+id/tv_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/dim40"
+        android:layout_marginRight="@dimen/dim16"
+        android:drawableLeft="@mipmap/live_energy_small"
+        android:drawablePadding="@dimen/dim8"
+        android:text="2"
+        android:textColor="@color/juhuan1"
+        android:textSize="@dimen/txt20"/>
+
+</RelativeLayout>

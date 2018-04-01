@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gigamole.library.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+                                   app:sl_shadowed="true"
+                                   app:sl_shadow_angle="45"
+                                   app:sl_shadow_radius="2dp"
+                                   app:sl_shadow_distance="1dp"
+                                   app:sl_shadow_color="#000">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@mipmap/dialog_bg"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/search_course_teacher_coursetv"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="课程"
+        android:textColor="@color/juhuan1"
+        android:textSize="@dimen/txt36" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/hintbg" />
+
+    <TextView
+        android:id="@+id/search_course_teacher_trachertv"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="老师"
+        android:textColor="@color/juhuan1"
+        android:textSize="@dimen/txt36" />
+</LinearLayout>
+
+</com.gigamole.library.ShadowLayout>

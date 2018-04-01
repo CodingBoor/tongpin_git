@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qmx163.activity.Me.MyEnergyActivity">
+
+    <com.qmx163.view.PinchImage.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_ededed">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim540"
+                    android:background="@mipmap/me_energy_back">
+
+                    <TextView
+                        android:id="@+id/tv_score"
+                        android:layout_width="@dimen/dim180"
+                        android:layout_height="@dimen/dim50"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/dim140"
+                        android:background="@drawable/shape_myenergy_bg"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/juhuan1"
+                        android:textSize="@dimen/txt30"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="@dimen/dim20"
+                    android:paddingLeft="@dimen/dim30"
+                    android:paddingRight="@dimen/dim30"
+                    android:paddingTop="@dimen/dim20"
+                    android:text="@string/me_energy_10"
+                    android:textColor="@color/bg"
+                    android:textSize="@dimen/txt28"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_energy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim30"
+                    android:background="@color/white"
+                    android:paddingLeft="@dimen/dim30"
+                    android:paddingRight="@dimen/dim30"
+                    android:paddingTop="@dimen/dim20"
+                    android:text="@string/me_rule"
+                    android:textColor="@color/bg"
+                    android:textSize="@dimen/txt28"/>
+
+
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:lineSpacingExtra="@dimen/dim20"
+                    android:paddingBottom="@dimen/dim20"
+                    android:paddingLeft="@dimen/dim30"
+                    android:paddingRight="@dimen/dim30"
+                    android:paddingTop="@dimen/dim30">
+                    <TextView
+                        android:id="@+id/tv_one"
+                        android:text=""
+                        android:textColor="@color/hintbg"
+                        android:textSize="@dimen/txt22"
+                        android:padding="@dimen/dim5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:id="@+id/tv_two"
+                        android:text=""
+                        android:textColor="@color/hintbg"
+                        android:textSize="@dimen/txt22"
+                        android:padding="@dimen/dim5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:id="@+id/tv_three"
+                        android:text=""
+                        android:textColor="@color/hintbg"
+                        android:textSize="@dimen/txt22"
+                        android:padding="@dimen/dim5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:id="@+id/tv_fout"
+                        android:text=""
+                        android:textColor="@color/hintbg"
+                        android:textSize="@dimen/txt22"
+                        android:padding="@dimen/dim5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:id="@+id/tv_five"
+                        android:text=""
+                        android:textColor="@color/hintbg"
+                        android:textSize="@dimen/txt22"
+                        android:padding="@dimen/dim5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:id="@+id/tv_six"
+                        android:text=""
+                        android:textColor="@color/hintbg"
+                        android:textSize="@dimen/txt22"
+                        android:padding="@dimen/dim5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:id="@+id/tv_serven"
+                        android:text=""
+                        android:textColor="@color/hintbg"
+                        android:textSize="@dimen/txt22"
+                        android:padding="@dimen/dim5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:lineSpacingExtra="@dimen/dim20"
+                    android:paddingBottom="@dimen/dim30"
+                    android:paddingLeft="@dimen/dim30"
+                    android:paddingRight="@dimen/dim30"
+                    android:paddingTop="@dimen/dim40"
+                    android:text="@string/me_energy_rule"
+                    android:textColor="@color/hintbg"
+                    android:textSize="@dimen/txt22"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </com.qmx163.view.PinchImage.ReboundScrollView>
+    <include layout="@layout/include_title"/>
+
+</RelativeLayout>

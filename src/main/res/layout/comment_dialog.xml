@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+    <com.qmx163.view.BackEditext
+        android:id="@+id/comment"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/dim17"
+        android:paddingTop="@dimen/dim17"
+        android:paddingLeft="@dimen/dim27"
+        android:paddingRight="@dimen/dim27"
+        android:layout_margin="@dimen/dim27"
+        android:background="@drawable/shape_comment_write"
+        android:hint="写评论"
+        android:textColorHint="@color/hintbg"
+        android:textColor="@color/hint"
+        android:textSize="15sp"/>
+    <com.rey.material.widget.TextView
+        style="@style/MaterialStyle"
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dim7"
+        android:text="发送"
+        android:textColor="@color/color_66"
+        android:layout_marginRight="@dimen/dim27"
+        android:layout_gravity="center_vertical"
+        android:textSize="16sp"/>
+        </LinearLayout>
+</LinearLayout>

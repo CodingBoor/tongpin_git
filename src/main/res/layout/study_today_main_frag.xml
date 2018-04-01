@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_title"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/color_dialog_gray"/>
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nest_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:id="@+id/topLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/study_today_bg">
+
+                        <TextView
+                            android:id="@+id/tv_sigin"
+                            android:layout_width="@dimen/dim140"
+                            android:layout_height="@dimen/dim70"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dim30"
+                            android:background="@drawable/shape_study_title_sigin"
+                            android:gravity="center"
+                            android:text="签到"
+                            android:textColor="@color/juhuan1"
+                            android:textSize="@dimen/txt34"/>
+
+                    </RelativeLayout>
+
+                    <RadioGroup
+                        android:id="@+id/rg_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_title_left"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/dim80"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_study_today_selector"
+                            android:button="@null"
+                            android:checked="true"
+                            android:gravity="center"
+                            android:text="今日学习"
+                            android:textColor="@drawable/tabs_study_today_color_selector"
+                            android:textSize="@dimen/txt30"/>
+
+                        <RadioButton
+                            android:id="@+id/rb_title_right"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/dim80"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_study_today_selector"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="往期学习"
+                            android:textColor="@drawable/tabs_study_today_color_selector"
+                            android:textSize="@dimen/txt30"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:scrollbars="none"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                    <FrameLayout
+                        android:id="@+id/study_today"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <FrameLayout
+                        android:id="@+id/study_history"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"/>
+                </RelativeLayout>
+
+        </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+            android:id="@+id/cf_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srlClassicsSpinnerStyle="Translate"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

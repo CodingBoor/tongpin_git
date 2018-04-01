@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_about_us"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ededed"
+    android:orientation="vertical"
+    tools:context="com.qmx163.activity.Me.AboutUsActivity">
+
+    <include layout="@layout/include_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim400"
+        android:layout_marginTop="@dimen/dim1"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dim100"
+            android:src="@mipmap/logo"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dim30">
+
+        <RelativeLayout
+            style="@style/MaterialStyleMain"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim88">
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dim30"
+            android:text="@string/about_version"
+            android:textColor="@color/bg"
+            android:textSize="@dimen/txt28"
+            />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dim30"
+            android:layout_toRightOf="@id/tv_text"
+            android:text="V1.1.1"
+            android:textColor="@color/hintbg"
+            android:textSize="@dimen/txt28"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dim30"
+            android:text="已是最新版本"
+            android:textColor="@color/hintbg"
+            android:textSize="@dimen/txt28"
+            />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dim2"
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim60"
+        android:gravity="center"
+        android:text="连接" />
+
+    <Button
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dim2"
+        android:id="@+id/disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim60"
+        android:gravity="center"
+        android:text="断开" />
+
+    <TextView
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dim2"
+        android:id="@+id/receive_message"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim60"
+        android:gravity="center"/>
+
+    <Button
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dim2"
+        android:id="@+id/Receive"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim60"
+        android:gravity="center"
+        android:text="Receive from message" />
+
+    <EditText
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dim2"
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim60"
+        android:gravity="center"/>
+
+    <Button
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dim2"
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim60"
+        android:gravity="center"
+        android:text="发送"/>
+    </LinearLayout>
+
+</LinearLayout>

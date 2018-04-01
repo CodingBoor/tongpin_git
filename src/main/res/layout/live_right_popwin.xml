@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+    <!--android:layout_height="90dp"-->
+
+    <RadioGroup
+        android:id="@+id/rg_popu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim70"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_popu_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/live_right_popu_title"
+            android:textColor="@drawable/live_rignt_text_color"
+            android:layout_weight="1"
+            android:checked="true"
+            android:button="@null"
+            android:gravity="center"
+            android:text="礼物"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_popu_two"
+            android:layout_width="0dp"
+            android:button="@null"
+            android:background="@drawable/live_right_popu_title"
+            android:textColor="@drawable/live_rignt_text_color"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="问候"
+            />
+    </RadioGroup>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_popu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:layout_marginTop="@dimen/dim10"
+        android:background="@color/color_ededed"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dim20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:layout_width="@dimen/dim130"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/live_size_add_del">
+
+            <TextView
+                android:id="@+id/tv_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/dim5"
+                android:paddingLeft="@dimen/dim10"
+                android:paddingRight="@dimen/dim20"
+                android:paddingTop="@dimen/dim5"
+                android:text="+"
+                android:textColor="@color/juhuan1"
+                android:textSize="@dimen/txt30"/>
+
+            <TextView
+                android:id="@+id/tv_del"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/dim5"
+                android:paddingLeft="@dimen/dim20"
+                android:paddingRight="@dimen/dim10"
+                android:paddingTop="@dimen/dim5"
+                android:text="—"
+                android:textColor="@color/hint"
+                android:textSize="@dimen/txt30"/>
+            <TextView
+                android:id="@+id/tv_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/txt24"
+                android:textColor="@color/xbg"
+                android:text="1"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/dim10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_need_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/live_energy"
+                android:text="0"
+                android:textSize="@dimen/txt24"
+                android:textColor="@color/juhuan1"
+                android:drawablePadding="@dimen/dim8"
+                />
+            <TextView
+                android:id="@+id/tv_all_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt18"
+                android:textColor="@color/hint"
+                android:text=""
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dim30"
+        android:layout_marginTop="@dimen/dim25"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/live_give_icon"
+        android:layout_marginLeft="@dimen/dim20"
+        android:layout_marginRight="@dimen/dim20"
+        android:id="@+id/tv_give"/>
+
+</LinearLayout>

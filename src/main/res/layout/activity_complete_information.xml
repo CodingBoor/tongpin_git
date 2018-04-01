@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_complete_information"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.qmx163.activity.Me.CompleteInformationAc">
+    <include layout="@layout/include_title" />
+    <LinearLayout
+        android:id="@+id/Lay_avatar"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/dim127"
+        android:layout_height="@dimen/dim127"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dim20"
+        android:background="@mipmap/mtoux"
+        android:layout_toLeftOf="@+id/aright" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim20"
+        android:layout_gravity="center_horizontal"
+        android:text="点击设置头像"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dim30"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/dim40"
+        android:layout_marginRight="@dimen/dim40"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="填写姓名"
+            android:textSize="@dimen/dim30"
+            android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="wrap_content"
+            android:hint="请输出您的姓名"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/dim30"
+            android:textCursorDrawable="@null"
+            android:gravity="right"
+            android:background="@null"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="@dimen/dim20"
+        android:layout_width="wrap_content"
+        android:background="@color/hintbg"
+        android:layout_height="1px"></View>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dim30"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/dim40"
+        android:layout_marginRight="@dimen/dim40"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="家长模式"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/dim30"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/off"
+                android:layout_width="@dimen/dim80"
+                android:layout_height="@dimen/dim60"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/off"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="@dimen/dim20"
+        android:layout_width="wrap_content"
+        android:background="@color/hintbg"
+        android:layout_height="1px"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/dim40"
+        android:layout_marginRight="@dimen/dim40"
+        android:layout_marginTop="@dimen/dim30"
+        android:textSize="@dimen/dim28"
+        android:text="如果您是陪伴学生进行学习，请选家长类型。"
+        android:layout_height="wrap_content" />
+    <com.rey.material.widget.TextView
+        android:id="@+id/loginGo"
+        style="@style/MaterialStyleNone"
+        android:gravity="center"
+        android:textSize="@dimen/txt30"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim70"
+        android:layout_marginLeft="@dimen/dim30"
+        android:layout_marginRight="@dimen/dim30"
+        android:layout_marginTop="@dimen/dim80"
+        android:background="@drawable/shape_logout"
+        android:text="进入"
+        />
+</LinearLayout>

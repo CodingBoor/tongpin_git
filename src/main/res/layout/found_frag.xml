@@ -1,0 +1,67 @@
+ <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:addStatesFromChildren="true"
+         app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+            app:layout_scrollFlags="scroll">
+
+
+            <include layout="@layout/include_title" />
+
+
+            <com.qmx163.view.BannerView
+                android:id="@+id/faxian_list_heard_banner"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim2"
+            android:background="@color/color_ededed" />
+
+        <include layout="@layout/found_viewpage_top_tab" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim2"
+            android:background="@color/color_ededed" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/found_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="10000dp" />
+
+        </LinearLayout>
+        </android.support.design.widget.CoordinatorLayout>
+  </android.support.v4.widget.SwipeRefreshLayout>

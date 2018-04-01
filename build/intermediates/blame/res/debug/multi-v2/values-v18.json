@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Myproject/tongpin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/codingkai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/acbd6a28b874f18b13b48c3724a3a0c6/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Myproject/tongpin/D:\\QumengProject\\tongpin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "/Myproject/tongpin/C:\\Users\\codin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\d0c07333e96216b7f3cde805c32a310d\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

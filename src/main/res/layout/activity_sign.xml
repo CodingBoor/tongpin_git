@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_sign"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fdebdc"
+    tools:context="com.qmx163.activity.Me.SignActivity">
+
+    <com.rey.material.widget.ImageView
+        style="@style/MaterialStyle"
+        android:id="@+id/iv_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dim30"
+        android:layout_marginTop="@dimen/dim100"
+        android:src="@mipmap/me_calendar_del"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/dim30"
+        android:layout_marginRight="@dimen/dim30"
+        android:layout_marginTop="@dimen/dim150"
+        android:background="@mipmap/me_calendar_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim15"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="50"/>
+
+            <TextView
+                android:id="@+id/tv_sign_day"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="5"
+                android:gravity="center_horizontal"
+                android:textColor="@color/juhuan1"
+                android:text=""
+                android:textSize="@dimen/txt28"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="29"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim455"
+            android:layout_marginLeft="@dimen/dim12"
+            android:layout_marginRight="@dimen/dim12"
+            android:layout_marginTop="@dimen/dim120">
+
+            <com.qmx163.view.PinchImage.SignCalendar
+                android:id="@+id/sign_calendar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim200"
+            android:layout_below="@+id/rl_calendar"
+            android:layout_marginTop="@dimen/dim120"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim42"
+                android:layout_marginTop="@dimen/dim18"
+                android:textSize="@dimen/txt28"
+                android:textColor="@color/bg"
+                android:text=""
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_getpoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dim16"
+                android:textColor="@color/bg"
+                android:textSize="@dimen/txt24"
+                android:text=""
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.rey.material.widget.ImageView
+                    style="@style/MaterialStyle"
+                    android:id="@+id/tv_sign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dim18"
+                    android:src="@mipmap/me_sign_btn"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dim64"
+                    android:text="+9"
+                    android:textSize="33dp"
+                    android:visibility="gone"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

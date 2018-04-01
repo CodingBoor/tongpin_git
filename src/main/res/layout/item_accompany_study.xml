@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dim366"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/rl_item1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl_head">
+
+                    <TextView
+                        android:id="@+id/tv_lesson_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@mipmap/me_study_item1"
+                        android:drawablePadding="@dimen/dim20"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dim74"
+                        android:text="10节"
+                        android:textColor="@color/bg"
+                        android:textSize="@dimen/txt28"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_study_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:drawableLeft="@mipmap/me_study_item2"
+                        android:drawablePadding="@dimen/dim20"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dim400"
+                        android:text="累计学习100小时"
+                        android:textColor="@color/bg"
+                        android:textSize="@dimen/txt28"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_item2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl_item1"
+                    android:layout_marginTop="@dimen/dim50">
+
+                    <TextView
+                        android:id="@+id/tv_question_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@mipmap/me_study_item3"
+                        android:drawablePadding="@dimen/dim20"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dim74"
+                        android:text="10节"
+                        android:textColor="@color/bg"
+                        android:textSize="@dimen/txt28"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_energy_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:drawableLeft="@mipmap/me_study_item4"
+                        android:drawablePadding="@dimen/dim20"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dim400"
+                        android:text="累计学习100小时"
+                        android:textColor="@color/bg"
+                        android:textSize="@dimen/txt28"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim1"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_ededed"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim200"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/civ_head"
+                        android:layout_width="@dimen/dim100"
+                        android:layout_height="@dimen/dim100"
+                        android:layout_marginLeft="@dimen/dim30"
+                        android:layout_marginTop="@dimen/dim40"
+                        android:src="@mipmap/me_head_ycx_small"
+                        />
+
+                    <TextView
+                        android:id="@id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dim20"
+                        android:layout_marginTop="@dimen/dim57"
+                        android:layout_toRightOf="@id/civ_head"
+                        android:text=""
+                        android:textColor="@color/bg"
+                        android:textSize="@dimen/txt28"
+
+                        android:textStyle="bold"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_star"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dim30"
+                        android:layout_toLeftOf="@+id/tv_star_point"
+                        android:padding="@dimen/dim15"
+                        android:src="@mipmap/study_star_on"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_star_point"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dim30"
+                        android:layout_toLeftOf="@+id/tv_study_status"
+                        android:text="+1"
+                        android:textColor="@color/black"
+                        android:visibility="invisible"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_study_status"
+                        android:layout_width="@dimen/dim150"
+                        android:layout_height="@dimen/dim60"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dim30"
+                        android:background="@drawable/shape_study_start"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt28"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/delete"
+                android:layout_width="@dimen/dim150"
+                android:layout_height="match_parent"
+                android:background="@color/juhuan1"
+                android:gravity="center"
+                android:text="删除"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+</RelativeLayout>

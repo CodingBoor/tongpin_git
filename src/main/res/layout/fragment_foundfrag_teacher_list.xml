@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rey.material.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                      style="@style/MaterialStyleMain"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/dim180"
+              android:background="@color/white"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:paddingLeft="@dimen/dim30"
+              android:paddingRight="@dimen/dim30">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/tea_ico"
+        android:layout_width="@dimen/dim120"
+        android:layout_height="@dimen/dim120"
+        android:src="@mipmap/teacher_head_large"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dim30"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tea_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:lines="1"
+            android:ellipsize="end"
+            android:textColor="@color/bg"
+            android:textSize="@dimen/txt28"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tea_organizationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dim6"
+            android:layout_marginTop="@dimen/dim20"
+            android:text=""
+            android:lines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/txt22"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="共授"
+                android:textSize="@dimen/txt22"/>
+
+            <TextView
+                android:id="@+id/tv_course_sise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/juhuan1"
+                android:textSize="@dimen/txt22"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="节课"
+                android:textSize="@dimen/txt22"/>
+
+            <View
+                android:layout_width="@dimen/dim1"
+                android:layout_height="@dimen/dim26"
+                android:layout_marginLeft="@dimen/dim36"
+                android:layout_marginRight="@dimen/dim30"
+                android:background="@color/color_66"
+                />
+
+            <TextView
+                android:id="@+id/tv_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/attention_icon"
+                android:drawablePadding="@dimen/dim12"
+                android:text=""
+                android:textColor="@color/juhuan1"
+                android:textSize="@dimen/txt22"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_horizontal"
+        android:src="@mipmap/right"/>
+</com.rey.material.widget.LinearLayout>

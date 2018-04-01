@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_my_data_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_ededed"
+    tools:context="com.qmx163.activity.Me.MyDataItemActivity">
+
+    <include layout="@layout/include_title"/>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dim30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_text"
+            android:lines="1"
+            android:maxLength="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt24"
+            android:paddingLeft="@dimen/dim20"
+            android:hint="1-20个字符，一个汉字为两个字符"
+            android:background="@null"
+            android:paddingTop="@dimen/dim20"
+            android:paddingBottom="@dimen/dim20"/>
+
+        <com.rey.material.widget.ImageView
+            style="@style/MaterialStyleMain"
+            android:id="@+id/iv_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/me_del"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingTop="@dimen/dim10"
+            android:paddingBottom="@dimen/dim10"
+            android:paddingLeft="@dimen/dim20"
+            android:paddingRight="@dimen/dim20"
+            />
+    </RelativeLayout>
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:textColor="@color/alpha"
+        android:text="1-20个字符，一个汉字为两个字符"/>
+</LinearLayout>

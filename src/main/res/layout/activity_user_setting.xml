@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_update_pwd"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_ededed"
+    tools:context="com.qmx163.activity.Me.UpdatePwdActivity">
+
+    <include layout="@layout/include_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/color_ededed"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim27"
+        android:background="@color/white">
+    <TextView
+        android:id="@+id/tv_updata_psw"
+        style="@style/user_item_style"
+        android:text="修改密码"
+        android:drawableRight="@mipmap/right"
+        android:textColor="@color/bg"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

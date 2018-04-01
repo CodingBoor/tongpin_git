@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- <item android:state_pressed="true"
+        android:drawable="@mipmap/start1" />
+    <item android:state_pressed="false"
+        android:drawable="@mipmap/iv_back" />-->
+    <item android:state_focused="true" android:drawable="@mipmap/focus"></item>
+    <item android:state_checked="true" android:drawable="@mipmap/focus"></item>
+    <item android:state_pressed="true" android:drawable="@mipmap/focus"></item>
+    <item android:drawable="@mipmap/focuscheck"/>
+</selector>

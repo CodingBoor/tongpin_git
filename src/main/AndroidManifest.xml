@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.qmx163"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_GPS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.ycx.yizhaodaba.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+
+    <!-- 微吼 -->
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 启动页 -->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SplashAc"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Me.PwdActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.Me.CompleteInformationAc"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.Found.SearchFound"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <!-- 我的个人资料界面 -->
+        <activity
+            android:name=".activity.Me.MyDateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+        <!-- 我的能量界面 -->
+        <activity
+            android:name=".activity.Me.MyEnergyActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 我的二维码界面 -->
+        <activity
+            android:name=".activity.Me.MyZXingActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 关于我们界面 -->
+        <activity
+            android:name=".activity.Me.AboutUsActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 意见反馈界面 -->
+        <activity
+            android:name=".activity.Me.FeedbackActivity"
+            android:screenOrientation="portrait"
+        android:windowSoftInputMode="stateHidden|adjustResize"  />
+        <!-- 我的设置界面 -->
+        <activity
+            android:name=".activity.Me.MySettingActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 二维码扫描界面 -->
+        <activity
+            android:name=".activity.Me.CaptureActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <!-- 陪伴学习界面 -->
+        <activity
+            android:name=".activity.Me.AccompanyStudyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <!-- 选择关系界面 -->
+        <activity
+            android:name=".activity.Me.CheckRelationActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 签到日历控件 -->
+        <activity
+            android:name=".activity.Me.SignActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <!-- 修改用户信息界面 -->
+        <activity
+            android:name=".activity.Me.MyDataItemActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+
+        <!-- 消息 -->
+        <!-- 消息详情烈面 -->
+        <activity
+            android:name=".activity.Message.MsgListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+
+        <!-- 老师详情 -->
+        <activity
+            android:name=".activity.FocusOn.DetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.watch.broadcast.BroadcastActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".activity.watch.WatchActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <!-- 今日学习详情页 -->
+        <activity
+            android:name=".activity.StudyToday.StudyDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 消息页面 -->
+        <activity
+            android:name=".activity.Message.MessageActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 我的关注页面 -->
+        <activity
+            android:name=".activity.FocusOn.FocusOnActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- socket服务 -->
+        <service
+            android:name=".service.BackService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <!-- 学习评论详情页面 -->
+        <activity
+            android:name=".activity.StudyToday.StudyCommentDetalActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 学习收藏页面 -->
+        <activity
+            android:name=".activity.StudyToday.StudyCollectionActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- ShareRec的activity -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <data android:scheme="tencent1106238243"/>
+
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+            <!-- 集成line客户端登录授权，需要添如下格式的过滤器 -->
+            <intent-filter>
+                <data android:scheme="line.1477692153"/>
+
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 微信分享 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <!-- 申请获得统一key Appkey和AppSecret -->
+        <meta-data
+            android:name="Mob-AppKey"
+            android:value="20cd620ca7a00"/>
+        <meta-data
+            android:name="Mob-AppSecret"
+            android:value="881c0555cbda3e0efc3bb1daf9bc9e82"/>
+
+        <!-- 修改密码界面 -->
+        <activity
+            android:name=".activity.Me.UpdatePwdActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 我的设置界面 -->
+        <activity
+            android:name=".activity.Me.UserSettingActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 轮播图详情页 -->
+        <activity
+            android:name=".activity.Found.BannerDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <receiver
+            android:name=".service.JpushReceive"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION"/>
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED"/>
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED"/>
+
+                <category android:name="com.qmx163"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- 极光推送消息详情 -->
+        <activity
+            android:name=".activity.Message.JpushMsgListActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <!-- 新手引导页 -->
+        <activity
+            android:name=".activity.GuideActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <!--教师详情页面-->
+        <activity android:name=".activity.FocusOn.TeacherDetailActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:launchMode="singleTop"
+                  android:screenOrientation="portrait">
+
+            <!--评论详情页面-->
+        </activity>
+        <activity android:name=".activity.StudyToday.StudyCommentDetActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+
+        头像剪切页面
+        <activity android:name=".activity.Me.ClipImageActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_my_setting"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_ededed"
+    tools:context="com.qmx163.activity.Me.MySettingActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/include_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:background="@color/color_ededed"/>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_setting"
+        style="@style/user_item_style"
+        android:text="@string/text_setting"
+        android:drawableRight="@mipmap/right"
+        android:textColor="@color/bg"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:layout_marginLeft="@dimen/dim30"
+        android:background="@color/color_ededed"/>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        style="@style/MaterialStyleMain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim88">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message_push"
+            android:textSize="@dimen/txt28"
+            android:textColor="@color/bg"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dim30"
+            />
+
+        <TextView
+            android:id="@+id/bt_switch"
+            android:layout_width="@dimen/dim100"
+            android:layout_height="@dimen/dim100"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/me_swtich_off"
+            android:tag="auto_play"
+            android:layout_marginRight="@dimen/dim30"/>
+
+        <com.qmx163.view.PinchImage.ToggleButton
+            android:id="@+id/bt_push"
+            android:visibility="gone"
+            android:layout_width="@dimen/dim100"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:onColor="@color/color_00b916"
+            android:background="@null"
+            android:tag="auto_play"
+            app:bordWidth="@dimen/dim1"
+            android:layout_marginTop="@dimen/dim13"
+            android:layout_marginBottom="@dimen/dim13"
+            android:layout_marginRight="@dimen/dim30"/>
+    </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim31"
+        android:textColor="@color/hintbg"
+        android:paddingLeft="@dimen/dim30"
+        />
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_updata"
+        style="@style/user_item_style"
+        android:text="@string/text_updata"
+        android:textColor="@color/bg"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:layout_marginLeft="@dimen/dim30"
+        android:background="@color/color_ededed"/>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_about"
+        style="@style/user_item_style"
+        android:text="@string/me_item_about"
+        android:textColor="@color/bg"/>
+</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim1"
+        android:layout_marginLeft="@dimen/dim30"
+        android:background="@color/color_ededed"/>
+
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        style="@style/MaterialStyleMain"
+        android:id="@+id/rl_clean"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim88">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_clean_cache"
+            android:textSize="@dimen/txt28"
+            android:textColor="@color/bg"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dim30"
+            />
+
+        <TextView
+            android:id="@+id/tv_cache"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/dim10"
+            android:layout_marginRight="@dimen/dim30"
+            android:textSize="@dimen/txt28"
+            android:textColor="@color/bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/right"
+            android:text="0KB"
+            />
+    </RelativeLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim88"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/push_allow"
+            android:textColor="@color/bg"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dim85"
+            />
+
+        <com.qmx163.view.PinchImage.ToggleButton
+            android:layout_width="@dimen/dim100"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:onColor="@color/color_00b916"
+            android:background="@null"
+            app:bordWidth="@dimen/dim1"
+            android:layout_marginTop="@dimen/dim13"
+            android:layout_marginBottom="@dimen/dim13"
+            android:layout_marginRight="@dimen/dim30"/>
+    </RelativeLayout>
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/tv_logout"
+        style="@style/MaterialStyleNone"
+        android:gravity="center"
+        android:textSize="@dimen/txt30"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim70"
+        android:layout_marginLeft="@dimen/dim30"
+        android:layout_marginRight="@dimen/dim30"
+        android:layout_marginTop="@dimen/dim80"
+        android:background="@drawable/shape_logout"
+        android:text="@string/me_item_change"
+        />
+
+</LinearLayout>

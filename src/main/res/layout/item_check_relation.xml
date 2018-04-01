@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="1dp">
+
+    <TextView
+        android:id="@+id/tv_relation"
+        android:layout_width="@dimen/dim110"
+        android:layout_height="@dimen/dim60"
+        android:textSize="@dimen/txt28"
+        android:textColor="@color/bg"
+        android:background="@drawable/shape_input_username"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/dim40"
+        android:text=""
+        />
+</RelativeLayout>
